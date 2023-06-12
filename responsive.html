@@ -1,388 +1,404 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <style>
     .form-check-input[type="checkbox"]:checked {
-    background-color: green;
-    border-color: green;
-  }
-  #card1{
-    background-color: rgb(215, 213, 213);
-  }
+      background-color: green;
+      border-color: green;
+    }
+
+    #card1 {
+      background-color: rgb(215, 213, 213);
+    }
   </style>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
-      <div class="container-fluid">
-         <div > 
-          <img src="./assets/playbutton.jpg" class="rounded-circle" style="width: 50px; height: 50px;" alt="Profile Picture"><b class="fs-5 d-none d-lg-inline">Playback</b>
-         </a>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom">
+    <div class="container-fluid">
+      <div>
+        <img src="./assets/playbutton.jpg" class="rounded-circle" style="width: 50px; height: 50px;"
+          alt="Profile Picture"><b class="fs-5 d-none d-lg-inline">Playback</b>
         
-        </div>
-        <div class="d-none d-lg-block">
-          <div >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page"><b>Discover</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><b>Connect</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><b>Community</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><b>Jobs</b></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="d-none d-lg-block">
-          <span class="navbar-text collapse navbar-collapse">
-            <i class="bi bi-envelope fs-5 "></i>
-            <i class="bi bi-cloud-upload mx-3 fs-5 "></i>
-            <img src="./assets/profile.jpg" class="rounded-circle" style="width: 50px; height: 50px;" alt="Profile Picture">
-          </span>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
       </div>
-      <div class="d-none d-lg-block">
-    </nav>
-    <div class="container-fluid collapse navbar-collapse"  id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page"><b>Discover</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><b>Connect</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><b>Community</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><b>Jobs</b></a>
-        </li>
-      </ul>
+      <div class="d-none d-md-block">
+        <div>
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"><b>Discover</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><b>Connect</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><b>Community</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><b>Jobs</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-none d-md-block">
+        <span class="navbar-text collapse navbar-collapse">
+          <i class="bi bi-envelope fs-5 "></i>
+          <i class="bi bi-cloud-upload mx-3 fs-5 "></i>
+          <img src="./assets/profile.jpg" class="rounded-circle" style="width: 50px; height: 50px;"
+            alt="Profile Picture">
+        </span>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
+    <div class="d-none d-md-block">
+  </nav>
+  <div class="container-fluid collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page"><b>Discover</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#"><b>Connect</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#"><b>Community</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#"><b>Jobs</b></a>
+      </li>
+    </ul>
+  </div>
   </div>
   <!-- main body -->
   <main class="container-sm">
     <div class="row   mt-5">
       <h3 class="mb-4">Account Settings</h3>
-      
-      <hr class="d-none d-md-block d-lg-none mt-3">
-      <section class="col-sm-0 col-md-4 col-lg-0">
-        <div class=" d-md-block d-lg-none">
-          <label for="exampleInputEmail1" class="form-label">Basics</label>
-        <p style="font-size:12px;" >Having an up-to-date email address attached to your account
-        is a great step toward improved account security.</p>
+
+      <hr class="d-md-none d-sm-block d-lg-block mt-3">
+      <section class="col-sm-0 col-md-0 col-lg-3">
+        <div class="d-md-none d-lg-block">
+          <label for="exampleInputEmail1" class="form-label"><b>Basics</b></label>
+          <p >Having an up-to-date email address attached to your account
+            is a great step toward improved account security.</p>
         </div>
       </section>
-      <section class="col-sm-12 col-md-8 col-lg-12">
-      <form>
-        
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <div class="row p-2">
-            <!-- <div class=""> -->
+      <section class="col-sm-12 col-md-12 col-lg-9">
+        <form>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <div class="row p-2">
+              <!-- <div class=""> -->
               <button class="btn btn-outline-secondary col-sm-12 col-md-auto">Change your Password</button>
-            <!-- </div> -->
+              <!-- </div> -->
+            </div>
           </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Language</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Chose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div>
+            <label for="exampleInputEmail1" class="form-label">Country</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Chose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </form>
+      </section>
+    </div>
+    <div class="row">
+      <hr class="d-lg-block d-md-none d-sm-block mt-3">
+
+      <section class="col-sm-0 col-md-0 col-lg-3">
+        <div class=" d-md-none d-lg-block">
+          <label for="exampleInputEmail1" class="form-label"><b>Profile</b></label>
+          <p>This information will be shown publicly so be
+            careful what information you provide.</p>
         </div>
+      </section>
+      <section class="col-sm-12 col-md-12 col-lg-9">
+        <form>
+
+          <div class="row mb-3 mt-2">
+            <div class="col-sm-12 col-md-6">
+              <div class="form-outline">
+                <label class="form-label" for="form3Example1">First name</label>
+
+                <input type="text" id="form3Example1" class="form-control" />
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div class="form-outline">
+                <label class="form-label" for="form3Example2">Last name</label>
+                <input type="text" id="form3Example2" class="form-control" />
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Picture</label>
+            <div class="row p-2">
+
+              <button class="btn btn-secondary col-sm-12 col-md-auto">Change picture</button>
+
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Username</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+        </form>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Language</label>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Chose...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
-        </div>
-        <div>
-          <label for="exampleInputEmail1" class="form-label">Country</label>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Chose...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
-        </div>
-      </form>
-    </section>
-  </div>
-  <div class="row">
-    <hr class="d-md-block d-lg-none mt-3">
-
-        <section class="col-sm-0 col-md-4 col-lg-0">
-      <div class=" d-md-block d-lg-none">
-        <label for="exampleInputEmail1" class="form-label">Profile</label>
-      <p style="font-size:12px;" >This information will be shown publicly so be
-        careful what information you provide.</p>
-      </div>
-    </section>
-    <section class="col-sm-12 col-md-8 col-lg-12">
-    <form>
-      
-      <div class="row mb-3">
-        <div class="col-sm-12 col-md-6">
-          <div class="form-outline">
-            <label class="form-label" for="form3Example1">First name</label>
-
-            <input type="text" id="form3Example1" class="form-control" />
+          <label for="exampleInputEmail1" class="form-label">About you</label>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px"></textarea>
+            <label for="floatingTextarea2"></label>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6">
-          <div class="form-outline">
-            <label class="form-label" for="form3Example2">Last name</label>
-            <input type="text" id="form3Example2" class="form-control" />
-          </div>
-        </div>
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Picture</label>
-        <div class="row p-2">
-          
-            <button class="btn btn-secondary col-sm-12 col-md-auto">Change picture</button>
-         
-        </div>
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Username</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      </div>
-    </form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">About you</label>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-        <label for="floatingTextarea2"></label>
-      </div>
-    </div>
-    <div class="d-none d-lg-block">
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Billing</label>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-          <label class="form-check-label" for="flexRadioDefault1">
-           Basic - 1 GB uploads ($5/mo)
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-          <label class="form-check-label" for="flexRadioDefault2">
-            Essential - 5 GB uploads ($10/mo)
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-          <label class="form-check-label" for="flexRadioDefault3">
-           Pro - Unlimited uploads ($20/mo)
-          </label>
-        </div>
-      </div>
-    <div class="mb-3">
-      <button class="btn btn-sm btn-danger">Cancel Subscription</button>
-    </div>
-    <div class="mb-3 d-flex flex-column">
-      <label class="form-check-label" for="flexRadioDefault3">
-        Payment method
-       </label>
-       <label class="form-check-label" for="flexRadioDefault3">
-        Visa ending in 5555
-       </label>
-       <label class="form-check-label" for="flexRadioDefault3">
-       expires 1/2019
-       </label>
-    
-    </div>
-    <button class="btn btn-secondary">Update</button>
-     </div>
-  </section>
-</div>
-
-
-<div class="row  d-lg-none ">
-  <hr class="d-md-block d-lg-none">
-
-      <section class="col-sm-0 col-md-4 col-lg-0">
-    <div class=" d-md-block d-lg-none">
-      <label for="exampleInputEmail1" class="form-label">Billing</label>
-    <p style="font-size:12px;" >This information will be shown publicly so be
-    careful what information you provide</p>
-    </div>
-  </section>
-  <section class="col-sm-12 col-md-8 col-lg-12 d-lg-none">
-  <form>
-    
-    <div class="row mb-3">
-      
-        <div class="d-flex justify-content-between">
-          <label class="form-label" for="form3Example1">Change Plan</label>
-          <label class="form-label d-none d-md-block" for="form3Example1">Cancel Subscription</label>
-        </div>
-    </div>
-    <div class="row mb-3">
-      <div class="col-md-4 mb-3 mb-sm-0">
-        <div class="card" onclick="toggleCard(this)">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <h5 class="card-title">Basic</h5>
-              <div class="form-check">
-                <input class="form-check-input rounded-circle" type="checkbox" value="" id="exampleCheckbox">
-              </div>
+        <div class="d-none d-md-block d-lg-none">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Change Plan</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Basic - 1 GB uploads ($5/mo)
+              </label>
             </div>
-            <div class="d-flex justify-content-between d-md-block">
-              <div class="d-flex">
-                <h3 class="card-subtitle mb-2 text-muted">1 GB</h3>&nbsp;
-                <p class="form-label pt-1"  style="font-size:12px;">Uploads</p>
-  
-              </div>
-              <label class="form-label">$<b>5</b> / mo</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Essential - 5 GB uploads ($10/mo)
+              </label>
             </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-4 mb-3 mb-sm-0">
-        <div class="card" onclick="toggleCard(this)">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <h5 class="card-title">Basic</h5>
-              <div class="form-check">
-                <input class="form-check-input rounded-circle" type="checkbox" value="" id="exampleCheckbox">
-                
-              </div>
-              
-            </div>
-            <div class="d-flex justify-content-between d-md-block">
-              <div class="d-flex">
-                <h3 class="card-subtitle mb-2 text-muted">1 GB</h3>&nbsp;
-                <p class="form-label pt-1" style="font-size:12px;">Uploads</p>
-  
-              </div>
-              <label class="form-label">$<b>5</b> / mo</label>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-4">
-        <div class="card" onclick="toggleCard(this)">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <h5 class="card-title">Basic</h5>
-              <div class="form-check">
-                <input class="form-check-input rounded-circle" type="checkbox" value="" id="exampleCheckbox">
-              </div>
-            </div>
-            <div class="d-flex justify-content-between d-md-block">
-              <div class="d-flex">
-                <h3 class="card-subtitle mb-2 text-muted">1 GB</h3>&nbsp;
-                <p class="form-label pt-1" style="font-size:12px;">Uploads</p>
-  
-              </div>
-              <label class="form-label">$<b>5</b> / mo</label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-    <label class="form-label">Payment method</label>
-
-      <div class="card" id="card1">
-        <div class="card-body d-flex justify-content-between">
-            <div class=" d-flex flex-column" >
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
               <label class="form-check-label" for="flexRadioDefault3">
-               <b> Visa ending in 5555</b>
-               </label>
-               <label class="form-check-label" for="flexRadioDefault3">
-               expires 1/2019
-               </label>
+                Pro - Unlimited uploads ($20/mo)
+              </label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <button class="btn btn-sm btn-danger">Cancel Subscription</button>
+          </div>
+          <div class="mb-3 d-flex flex-column">
+            <label class="form-check-label" for="flexRadioDefault3">
+              Payment method
+            </label>
+            <label class="form-check-label" for="flexRadioDefault3">
+              Visa ending in 5555
+            </label>
+            <label class="form-check-label" for="flexRadioDefault3">
+              expires 1/2019
+            </label>
 
-            </div>
-            <div>
-              <button class="btn btn-outline-secondary">Update</button>
-              
-            </div>
+          </div>
+          <button class="btn btn-secondary">Update</button>
         </div>
+      </section>
     </div>
-    
-</section>
-</div>
-<div class="row   mt-5">
-  <hr class="d-md-block d-lg-none mt-3">
 
-  
-  <section class="col-sm-0 col-md-4 col-lg-0">
-    <div class=" d-md-block d-lg-none">
-      <label for="exampleInputEmail1" class="form-label">Notifications</label>
-    <p style="font-size:12px;" >Get notified activity going on with your account.
-    Notifications will be sent to the email that you have provided. </p>
-    </div>
-  </section>
-  <section class="col-sm-12 col-md-8 col-lg-12">
-  <form>
-    
-    <div class="form-check">
-      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
-      <label class="form-check-label" for="exampleCheckbox1"><b>Account Activity</b></label>
-      <p>Get important notifications about you or activity you've missed</p>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
-      <label class="form-check-label" for="exampleCheckbox1"><b>New For You</b></label>
-      <p>A weekly email featuring acticity from people you follow</p>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
-      <label class="form-check-label" for="exampleCheckbox1"><b>Meetups Near You</b></label>
-      <p>Get an email when a Meetup is posted close to your location</p>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
-      <label class="form-check-label" for="exampleCheckbox1"><b>Company News</b></label>
-      <p>Get news, annoucements, and product updates</p>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
-      <label class="form-check-label" for="exampleCheckbox1"><b>Weekly Jobs</b></label>
-      <p>Weekly digest of design jobs</p>
-    </div>
-  </form>
-</section>
-</div>
-<footer class="mb-5">
-  <hr class="d-md-block d-lg-none mt-3">
-  <div class="row gap-3  p-2 d-md-flex flex-md-row-reverse d-lg-block">
-      <button class="btn btn-primary col-sm-12 col-md-auto">Save Settings</button>
-      <button class="btn btn-outline-primary col-sm-12 col-md-auto mx-lg-3">Cancel</button>
-  </div>
 
-</footer>
+
+
+    <div class="row  d-md-none d-lg-flex">
+      <hr class="d-md-none d-lg-block d-sm-block">
+
+      <section class="col-sm-0 col-md-0 col-lg-3">
+        <div class=" d-md-none d-lg-block d-sm-block">
+          <label for="exampleInputEmail1" class="form-label"><b>Billing</b></label>
+          <p >This information will be shown publicly so be
+            careful what information you provide</p>
+        </div>
+      </section>
+      <section class="col-sm-12 col-md-12 col-lg-9">
+        <form>
+
+          <div class="row mb-3">
+
+            <div class="d-flex justify-content-between">
+              <label class="form-label" for="form3Example1">Change Plan</label>
+              <label class="form-label d-none d-lg-block text-primary" for="form3Example1">Cancel Subscription</label>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-4 mb-3 mb-sm-0">
+              <div class="card" onclick="toggleCard(this)">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <h5 class="card-title">BASIC</h5>
+                    <div class="form-check">
+                      <input class="form-check-input rounded-circle" type="checkbox" value="" id="exampleCheckbox">
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between d-lg-block">
+                    <div class="d-flex">
+                      <h3 class="card-subtitle mb-2">1</h3>&nbsp;<b class="pt-lg-1">GB</b>&nbsp;
+                      <p class="form-label pt-1 pt-lg-2" style="font-size:12px;">Uploads</p>
+
+                    </div>
+                    <label class="form-label">$<b>5</b> / mo</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-sm-0">
+              <div class="card" onclick="toggleCard(this)">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <h5 class="card-title">ESSENTIAL</h5>
+                    <div class="form-check">
+                      <input class="form-check-input rounded-circle" type="checkbox" value="" id="exampleCheckbox">
+
+                    </div>
+
+                  </div>
+                  <div class="d-flex justify-content-between d-lg-block">
+                    <div class="d-flex">
+                      <h3 class="card-subtitle mb-2 ">5</h3>&nbsp;<b class="pt-lg-1">GB</b>&nbsp;
+                      <p class="form-label pt-1 pt-lg-2" style="font-size:12px;">Uploads</p>
+
+                    </div>
+                    <label class="form-label">$<b>10</b> / mo</label>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 ">
+              <div class="card" onclick="toggleCard(this)">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <h5 class="card-title">PRO</h5>
+                    <div class="form-check">
+                      <input class="form-check-input rounded-circle" type="checkbox" value="" id="exampleCheckbox">
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between d-lg-block">
+                    <div class="d-flex">
+                      <h3 class="card-subtitle mb-2 ">15</h3>&nbsp;<b class="pt-lg-1">GB</b>&nbsp;
+                      <p class="form-label pt-lg-2 pt-1" style="font-size:12px;">Uploads</p>
+
+                    </div>
+                    <label class="form-label">$<b>20</b> / mo</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <label class="form-label">Payment method</label>
+
+          <div class="card" id="card1">
+            <div class="card-body d-flex justify-content-between">
+              <div class=" d-flex flex-column">
+                <label class="form-check-label" for="flexRadioDefault3">
+                  <b> Visa ending in 5555</b>
+                </label>
+                <label class="form-check-label" for="flexRadioDefault3">
+                  expires 1/2019
+                </label>
+
+              </div>
+              <div>
+                <button class="btn btn-outline-secondary">Update</button>
+
+              </div>
+            </div>
+          </div>
+        </form>
+
+      </section>
+    </div>
+    <div class="row   mt-5">
+      <hr class="d-md-none d-lg-block d-sm-block mt-3">
+
+
+      <section class="col-sm-0 col-md-0 col-lg-3">
+        <div class=" d-md-none d-lg-block d-sm-block">
+          <label for="exampleInputEmail1" class="form-label"><b>Notifications</b></label>
+          <p >Get notified activity going on with your account.
+            Notifications will be sent to the email that you have provided. </p>
+        </div>
+      </section>
+      <section class="col-sm-12 col-md-12 col-lg-9">
+        <label for="exampleInputEmail1" class="form-label d-none d-md-block d-lg-none"><b>Notifications</b></label>
+        <form>
+
+          <div class="form-check">
+            <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
+            <label class="form-check-label" for="exampleCheckbox1"><b>Account Activity</b></label>
+            <p>Get important notifications about you or activity you've missed</p>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
+            <label class="form-check-label" for="exampleCheckbox1"><b>New For You</b></label>
+            <p>A weekly email featuring acticity from people you follow</p>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
+            <label class="form-check-label" for="exampleCheckbox1"><b>Meetups Near You</b></label>
+            <p>Get an email when a Meetup is posted close to your location</p>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
+            <label class="form-check-label" for="exampleCheckbox1"><b>Company News</b></label>
+            <p>Get news, annoucements, and product updates</p>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input custom-checkbox" type="checkbox" value="" id="exampleCheckbox1">
+            <label class="form-check-label" for="exampleCheckbox1"><b>Weekly Jobs</b></label>
+            <p>Weekly digest of design jobs</p>
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer class="mb-5">
+      <hr class="d-md-none d-lg-block d-sm-block mt-3">
+      <div class="row gap-3  p-2 d-lg-flex flex-lg-row-reverse d-md-block">
+        <button class="btn btn-primary col-sm-12 col-md-auto">Save Settings</button>
+        <button class="btn btn-outline-primary col-sm-12 col-md-auto mx-lg-3">Cancel</button>
+      </div>
+
+    </footer>
   </main>
 
   <script>
     function toggleCard(card) {
-      card.classList.toggle('border-success'); 
-      var checkbox = card.querySelector('.form-check-input'); 
-      checkbox.checked = !checkbox.checked; 
+      card.classList.toggle('border-success');
+      var checkbox = card.querySelector('.form-check-input');
+      checkbox.checked = !checkbox.checked;
     }
   </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
